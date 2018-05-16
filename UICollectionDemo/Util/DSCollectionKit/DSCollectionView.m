@@ -62,7 +62,7 @@
     rect.size.height = _collectionViewIndex.titleIndexes.count * 16;
     rect.origin.y = (self.bounds.size.height - rect.size.height) / 2;
     _collectionViewIndex.frame = rect;
-    _collectionViewIndex.isFrameLayer = YES;    //是否有边框线
+    _collectionViewIndex.isFrameLayer = NO;    //是否有边框线
     _collectionViewIndex.collectionDelegate = self;
 }
 

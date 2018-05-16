@@ -17,8 +17,8 @@
 
 @interface DSCollectionView : UIView
 
-@property(nonatomic, strong)UICollectionView *collectionView;
-@property(nonatomic, weak)id<DSCollectionViewDelegate>delegate;
+@property(nonatomic, strong) UICollectionView *collectionView;
+@property(nonatomic, weak) id<DSCollectionViewDelegate>delegate;
 
 -(void)reloadData;
 
